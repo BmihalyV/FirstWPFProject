@@ -1,0 +1,31 @@
+﻿<Window x:Class="WPFbeadPK.Szamologep"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFbeadPK"
+        mc:Ignorable="d"
+        Title="Szamologep" Height="470" Width="820">
+    <Grid>
+        <Button x:Name="button2" Content="2" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="645,129,0,0" FontSize="40" Click="button2_Click_1"/>
+        <Button x:Name="button1" Content="1" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="570,129,0,0" FontSize="40" Click="button1_Click"/>
+        <Button x:Name="button0" Content="0" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="645,354,0,0" FontSize="40" Click="button0_Click"/>
+        <Button x:Name="button9" Content="9" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="720,279,0,0" FontSize="40" Click="button9_Click"/>
+        <Button x:Name="button8" Content="8" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="645,279,0,0" FontSize="40" Click="button8_Click"/>
+        <Button x:Name="button6" Content="6" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="720,204,0,0" FontSize="40" Click="button6_Click"/>
+        <Button x:Name="button7" Content="7" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="570,279,0,0" FontSize="40" Click="button7_Click"/>
+        <Button x:Name="button5" Content="5" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="645,204,0,0" FontSize="40" Click="button5_Click"/>
+        <Button x:Name="button4" Content="4" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="570,204,0,0" FontSize="40" Click="button4_Click"/>
+        <Button x:Name="button3" Content="3" HorizontalAlignment="Left" VerticalAlignment="Top" Width="70" Height="70" Margin="720,129,0,0" FontSize="40" Click="button3_Click"/>
+        <Button x:Name="buttonplusz" Content="+" HorizontalAlignment="Left" Margin="494,129,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="40" Click="buttonplusz_Click"/>
+        <Button x:Name="buttonoszto" Content="/" HorizontalAlignment="Left" Margin="494,354,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="40" Click="buttonoszto_Click"/>
+        <Button x:Name="buttonminusz" Content="-" HorizontalAlignment="Left" Margin="494,204,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="40" Click="buttonminusz_Click"/>
+        <Button x:Name="buttonszorzo" Content="*" HorizontalAlignment="Left" Margin="494,279,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="40" Click="buttonszorzo_Click"/>
+        <Button x:Name="buttonegyenlo" Content="=" HorizontalAlignment="Left" Margin="570,354,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="40" Click="buttonegyenlo_Click"/>
+        <TextBox x:Name="EgyenletBox"  HorizontalAlignment="Left" Margin="494,44,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="200" Height="40" FontSize="30"/>
+        <TextBox x:Name="EgyenletLista" HorizontalAlignment="Left" Margin="10,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="450" Height="370" FontSize="20"/>
+        <Button x:Name="buttonlistdelete" Content="Delete" HorizontalAlignment="Left" Margin="10,385,0,0" VerticalAlignment="Top" Height="39" Width="100" FontSize="20" Click="buttonlistdelete_Click"/>
+        <Button x:Name="buttonMain" Content="Back to main" HorizontalAlignment="Left" Margin="115,385,0,0" VerticalAlignment="Top" Height="39" Width="151" FontSize="20" Click="buttonMain_Click"/>
+        <Button x:Name="buttonvesszo" Content="," HorizontalAlignment="Left" Margin="720,353,0,0" VerticalAlignment="Top" Width="70" Height="70" FontSize="40" Click="buttonvesszo_Click"/>
+    </Grid>
+</Window>

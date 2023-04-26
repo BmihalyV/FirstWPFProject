@@ -1,0 +1,27 @@
+﻿<Window x:Class="WPFbeadPK.Szamkitalalo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFbeadPK"
+        mc:Ignorable="d"
+        Title="Szamkitalalo" Height="500" Width="800">
+    <Grid>
+        <Button x:Name="KisebbX" Content="Lower than " HorizontalAlignment="Left" Margin="60,194,0,0" VerticalAlignment="Top" Width="200" Height="40" FontSize="20" Click="KisebbX_Click"/>
+        <Button x:Name="NagyobbX" Content="Higher than " HorizontalAlignment="Left" Margin="60,244,0,0" VerticalAlignment="Top" Width="200" Height="40" FontSize="20" Click="NagyobbX_Click"/>
+        <Button x:Name="EgyenloX" Content="Equal " HorizontalAlignment="Left" Margin="60,294,0,0" VerticalAlignment="Top" Width="200" Height="40" FontSize="20" Click="EgyenloX_Click"/>
+        <Label x:Name="label" Content="How much should the tip be?" HorizontalAlignment="Left" Margin="60,35,0,0" VerticalAlignment="Top" Width="210" FontSize="15"/>
+        <TextBox x:Name="SzambevivoText" HorizontalAlignment="Left" Margin="60,66,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Height="30" FontSize="20" BorderBrush="Red" TextChanged="textBox_TextChanged"/>
+        <TextBox x:Name="Hataralso" HorizontalAlignment="Left" Margin="319,81,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Height="40" FontSize="20" BorderBrush="Black"/>
+        <Label x:Name="label1" Content="What should be the two limits?" HorizontalAlignment="Left" Margin="319,35,0,0" VerticalAlignment="Top" FontSize="15"/>
+        <TextBox x:Name="Hatarfelso" HorizontalAlignment="Left" Margin="434,81,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="90" Height="40" FontSize="20" BorderBrush="Black"/>
+        <Label x:Name="label2" Content="Lower" HorizontalAlignment="Left" Margin="319,134,0,0" VerticalAlignment="Top" Width="60" Height="40" FontSize="20"/>
+        <Label x:Name="label3" Content="Upper" HorizontalAlignment="Left" Margin="454,134,0,0" VerticalAlignment="Top" Width="70" Height="40" FontSize="20" RenderTransformOrigin="-0.1,0.465"/>
+        <TextBox x:Name="ElozmenyBox" HorizontalAlignment="Left" Margin="548,35,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="170" Height="300" BorderBrush="Cyan" FontSize="15"/>
+        <TextBox x:Name="HelpText" HorizontalAlignment="Left" Margin="160,394,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="250" Height="30" RenderTransformOrigin="0.5,0.5" FontSize="20" BorderBrush="Cyan" Visibility="Hidden"/>
+        <Button x:Name="HelpButton" Content="Help" HorizontalAlignment="Left" Margin="60,396,0,0" VerticalAlignment="Top" Width="80" Height="40" FontSize="20" Click="HelpButton_Click"/>
+        <TextBox x:Name="SegitoText" HorizontalAlignment="Left" Margin="60,339,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="450" Height="30" FontSize="20"/>
+        <Button x:Name="Generate" Content="Generate number" HorizontalAlignment="Left" Margin="364,184,0,0" VerticalAlignment="Top" Width="115" Height="30" Click="Generate_Click"/>
+        <Button x:Name="buttonMain" Content="Back to main" HorizontalAlignment="Left" Margin="599,396,0,0" VerticalAlignment="Top" Height="40" Width="119" FontSize="20" Click="buttonMain_Click"/>
+    </Grid>
+</Window>
